@@ -29,4 +29,4 @@ def contar_recursivo(n):
         lista=contar_recursivo(n-1)
         lista.append(n)
         return lista
-print(contar_recursivo(6))
+print(contar_recursivo(5))
